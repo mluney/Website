@@ -1,13 +1,13 @@
 h1 {
 	color: red;
 	
-	border: 5px solid red;
+	border: 5px solid purple;
 }
 li {
-	color: green;
+	color: black;
 }
-h4 {
-	background: rgb(255,100,80);
+h2 {
+	background: red;
 }
 body{
 	background: url(http://www.myspacelayoutsupport.com/myspace-backgrounds/images/uh8.jpg);
