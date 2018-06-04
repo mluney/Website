@@ -1,12 +1,35 @@
 h1 {
 	color: red;
+	background-color: rgba(211,211,211,1);
+	width: 20%;
 }
 li {
 	color: black;
 }
 }
+#Christain{
+
+	background-image: url(Christain.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.list-group{
+	width: 25%;
+	alignment-baseline: auto;
+}
+h3{
+	 background-color: rgba(211,211,211,1);
+	 width: 20%; 
+
+}
+
 body{
-	background-image: Christian.jpg;
+	font-size: 20px;
+	background-image:url("Christian.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center 40%;
+}
+#new{
+	
 }
