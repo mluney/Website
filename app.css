@@ -1,7 +1,7 @@
 h1 {
 	color: red;
-	background-color: rgba(211,211,211,1);
-	width: 20%;
+	
+	
 }
 li {
 	color: black;
@@ -13,13 +13,20 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.list-group{
+.list-group-item{
 	width: 25%;
 	alignment-baseline: auto;
+	
+	
+	background-color: rgba(211, 211, 211, 0.5);
+	margin-left: 20px;
 }
 h3{
-	 background-color: rgba(211,211,211,1);
+	 background-color: rgba(211, 211, 211, 0.5);
+	 color: rgb(0 0 0);
 	 width: 20%; 
+	 margin-left: 20px;
+	 border: 1px white solid;
 
 }
 
@@ -30,6 +37,21 @@ body{
 	background-size: cover;
 	background-position: center 40%;
 }
-#new{
-	
+h1{
+		background: rgba(211, 211, 211, 0.3);;
+		color: blue;
+		text-transform: uppercase;
+		text-align: center;
+		width: 25%;
+		margin-left: 20px;
+		border:1px white solid;
+
+		
+
 }
+
+.try{
+	 
+}
+
+
