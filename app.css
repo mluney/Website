@@ -1,17 +1,48 @@
+body {
+    background: url(https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450);
+    background-size: cover;
+    background-position: center; 
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
 h1 {
-	color: red;
-	
-	border: 10px solid purple;
+	font-weight: 700;
+	font-size: 5em;
 }
-li {
-	color: black;
+
+
+.content{
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
 }
-h2 {
-	background: red;
-	color: black;
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-body{
-	background: url(http://www.myspacelayoutsupport.com/myspace-backgrounds/images/uh8.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+/* Style buttons */
+.btn {
+  background-color: #f8f8f8;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn: hover {
+  background-color: RoyalBlue;
 }
