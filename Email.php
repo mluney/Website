@@ -8,6 +8,6 @@ if($_POST["submit"]) {
     $mailBody="Name: $sender\nEmail Address: $email\n\nMessage: $message";
     mail($recipient, $subject, $mailBody);
     sleep(1);
-//    header("Location:http://blog.antonyraphel.in/sample/"); // Set here redirect page or destination page
+    header("Location:https://mluney.github.io"); // Set here redirect page or destination page
 }
 ?>
